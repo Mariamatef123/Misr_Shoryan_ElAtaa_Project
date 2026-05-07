@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 40px; 
+  padding: 10px 40px;
   background: #fff;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
   position: sticky;
@@ -22,7 +22,7 @@ body {
   gap: 8px;
 }
 .main-logo-text {
-  font-size: 26px; 
+  font-size: 26px;
   font-weight: 900;
   color: #e63946;
 }
@@ -30,10 +30,13 @@ body {
   font-size: 28px;
   animation: beat 0.8s infinite alternate;
   display: inline-block;
-  filter: drop-shadow(0 0 2px white) drop-shadow(0 0 2px white) drop-shadow(0 0 2px white);
+  filter: drop-shadow(0 0 2px white) drop-shadow(0 0 2px white)
+    drop-shadow(0 0 2px white);
 }
 @keyframes beat {
-  to { transform: scale(1.15); }
+  to {
+    transform: scale(1.15);
+  }
 }
 .nav-links {
   list-style: none;
@@ -50,28 +53,37 @@ body {
   border: none;
   background: none;
   cursor: pointer;
-  font-size: 14px; 
+  font-size: 14px;
   transition: 0.3s;
 }
-.btn-v { background: #f1f1f1; }
-.btn-l { background: #1d3557; color: white !important; }
+.btn-v {
+  background: #f1f1f1;
+}
+.btn-l {
+  background: #1d3557;
+  color: white !important;
+}
 .btn-donate-main {
   background: linear-gradient(45deg, #e63946, #b91c1c);
   color: white;
   border: none;
-  padding: 12px 30px; 
+  padding: 12px 30px;
   border-radius: 40px;
-  font-size: 18px; 
+  font-size: 18px;
   font-weight: bold;
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(230, 57, 70, 0.3);
   transition: 0.3s;
   text-decoration: none;
 }
-.btn-donate-main:hover { transform: scale(1.05); }
+.btn-donate-main:hover {
+  transform: scale(1.05);
+}
 .hero {
-  height: 35vh; 
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/home-hero.jpg");
+  height: 35vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../Images/home-hero.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -98,21 +110,23 @@ body {
   font-size: 16px;
 }
 .content-box {
-  max-width: 850px; 
+  max-width: 850px;
   margin: 25px auto;
   padding: 30px;
   background: white;
-  border-radius: 20px;
+  border-radius: 21px;
   line-height: 1.7;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 .content-box h1 {
-  color: #e63946;
+  color: #db2b39;
   font-size: 28px;
-  border-left: 4px solid #e63946;
+  border-left: 4px solid #dd303e;
   padding-right: 12px;
 }
-input, select, .btn-submit-step {
+input,
+select,
+.btn-submit-step {
   width: 100%;
   padding: 10px;
   margin: 8px 0;
@@ -142,9 +156,20 @@ input, select, .btn-submit-step {
   border: 1px solid #eee;
   font-size: 14px;
 }
-.available { background: #d4edda; color: #155724; border-color: #c3e6cb; }
-.disabled { background: #e9ecef; color: #adb5bd; cursor: not-allowed; }
-.selected { background: #e63946 !important; color: white !important; }
+.available {
+  background: #d4edda;
+  color: #155724;
+  border-color: #c3e6cb;
+}
+.disabled {
+  background: #e9ecef;
+  color: #adb5bd;
+  cursor: not-allowed;
+}
+.selected {
+  background: #e63946 !important;
+  color: white !important;
+}
 .time-slots {
   display: flex;
   gap: 8px;
