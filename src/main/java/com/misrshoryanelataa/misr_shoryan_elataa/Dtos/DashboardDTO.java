@@ -12,6 +12,7 @@ public class DashboardDTO {
 
     // getters and setters
 
+    
     public int getTotalVolunteers() {
         return totalVolunteers;
     }
